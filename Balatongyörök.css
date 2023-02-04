@@ -1,6 +1,36 @@
+
+
 body{
     
-  
-        background-image: url(./img/back.jpg);
-    
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    max-width: 1000px;
 }
+fejlec{
+   
+    background-position-x: center;
+    
+   
+}
+    
+       .parent{
+        position: relative;
+       top: 0;
+       left: 0;
+        
+       }
+       .image1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 1300px;
+        height: 250px;
+       }
+       .image2{
+        position: absolute;
+       top: 10px;
+       left: 1100px;
+       width: 150px;
+       
+        
+       }
