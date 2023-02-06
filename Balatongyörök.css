@@ -4,33 +4,70 @@ body{
     
     background-image: url(./img/back.jpg);
     background-repeat: no-repeat;
-    max-width: 1000px;
+    width: 1000px;
 }
-fejlec{
+.parent{
+    position: relative;
    
-    background-position-x: center;
+    
+   }
+   .image1{
+    position: relative;
+    top: 0;
+    left: 40px;
+    width: 1200px;
+    height: 250px;
+    
+   }
+   
+
+   .image2{
+    position: absolute;
+   top: 10px;
+   left: 1070px;
+   width: 150px;
+   
+    
+   }
+   .top-left{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+   }
+   #table1{
+    width: 100px; 
+    background-color: #bcd1f1;
+    border: 5px black;
+    
+   }
+   
+   #table2{
+    width: 100px;
+     background-color: #bcd1f1;
+    border: 5px black;
+   }
+   #container1{
+    background-color: #5b9cea ;
+    width: 450px;
+    
+
+   }
+   #container2{
+    background-color: #5b9cea;
+    float: right;
+    width: 450px;
+   }
+    
+    
+  
+      
+    
+
+    
     
    
-}
-    
-       .parent{
-        position: relative;
-       top: 0;
-       left: 0;
-        
-       }
-       .image1{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 1300px;
-        height: 250px;
-       }
-       .image2{
-        position: absolute;
-       top: 10px;
-       left: 1100px;
-       width: 150px;
+
+
        
-        
-       }
+
+       
