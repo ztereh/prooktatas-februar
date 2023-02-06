@@ -5,6 +5,9 @@ body{
     background-image: url(./img/back.jpg);
     background-repeat: no-repeat;
     width: 1000px;
+    margin-left: 120px;
+    
+    
 }
 .parent{
     position: relative;
@@ -15,7 +18,7 @@ body{
     position: relative;
     top: 0;
     left: 40px;
-    width: 1200px;
+    width: 960px;
     height: 250px;
     
    }
@@ -24,7 +27,7 @@ body{
    .image2{
     position: absolute;
    top: 10px;
-   left: 1070px;
+   left: 840px;
    width: 150px;
    
     
@@ -35,20 +38,26 @@ body{
     left: 60px;
    }
    #table1{
-    width: 100px; 
-    background-color: #bcd1f1;
+    width: 100%;
+    background-color: #b0d1f1;
     border: 5px black;
+    text-align: center;
     
    }
    
    #table2{
-    width: 100px;
-     background-color: #bcd1f1;
+    
+     background-color: #b0d1f1;
     border: 5px black;
+    text-align: center;
+    width: 100%;
    }
    #container1{
     background-color: #5b9cea ;
     width: 450px;
+    height: 300px;
+    margin-left: 40px;
+    
     
 
    }
@@ -56,8 +65,24 @@ body{
     background-color: #5b9cea;
     float: right;
     width: 450px;
-   }
+    height: 300px;
+    margin-top: -300px;
     
+    
+   }
+   h3{
+    margin-left: 40px;
+}
+header{
+    text-align: left;
+}
+#main{
+    width: 1000px;
+    text-align: center;
+}
+
+    
+
     
   
       
