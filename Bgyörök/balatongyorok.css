@@ -1,0 +1,191 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.keret{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+.header{
+    width:90%;
+    background-image: url(panorama.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+}
+.cimerkep img{
+    width: 150px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    transition: width 3s;
+    transition: transform 2s;
+}
+.cimerkep img:hover{
+    
+   width: 165px;
+   transform: rotate(360deg);
+}
+.bal{
+    width: 80%;
+    
+    background-color: #5B9CEA;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transition: width 2s;
+}
+.bal:hover{
+    width: 85%;
+}
+
+.jobb{
+    width: 80%;
+    
+     background-color: #5B9CEA;
+     padding: 20px;
+     margin: auto;
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+.uj{
+    width: 80%;
+    
+     background-color: #5B9CEA;
+     padding: 20px;
+     margin: auto;
+     margin-left: 20px;
+     
+}
+.felkover{
+        font-weight: bold;
+}
+.bekezdes{
+   font-weight: bold;
+   text-align: center;
+   transition: font-size 3s;
+}
+.bekezdes:hover{
+    font-size: large;
+}
+.tablazat{
+    text-align: center;
+    background-color: #B0D1F1;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.tablazat td{
+    border: 1px solid black;
+    padding: 5px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    transition: background-color 2s ;
+}
+a:hover{
+    color: black;
+    background-color: red;
+}
+@media screen and (min-width:900px){
+    .bal{
+        width:25%;
+        float:left;
+    }
+    .jobb{
+        width:25%;
+        float:left;
+    }
+    .uj{
+        width: 25%;
+        float: left;
+    }
+}
+@media screen and (min-width:1500px){
+    .uj{
+        
+        float:left;
+    }
+    .bal, .jobb, .harmadik{
+        width: 25%;
+    }
+}
+@media  screen and (max-width:900px) {
+    .cimerkep img{
+        width:20%;
+    }
+}
+@media screen and (max-width:500px) {
+    .cimerkep{
+        display: none;
+    }
+    .header{
+        height:150px;
+    }
+}
+@media  screen and (min-width:450px) and (max-width:800px) {
+    h1{
+       color: red
+    }
+}
+
+@keyframes beuszas {
+    0%{left:0px; top 0px}
+    33%{left: 10px; top: 50px;}
+    66%{:left:20px; top:80px}
+    80%{:left 30px; top:100px;}
+    100%{left:25px;top:85px }
+}
+h1 {
+    position: relative;
+    animation-name: beuszas;
+    animation-duration: 3s;
+}
+@keyframes bird {
+    0%{left: 0px;}
+    100%{left:1000px}
+}
+bird {
+    position: relative;
+    animation-name: bird;
+    animation-duration: 3s;
+}
+ul{
+    list-style-type: none;
+    
+    background-color:azure ;
+    
+    
+}
+li {
+    border: 1px red;
+    display: inline;
+}
+li a {
+   
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 2s;
+} 
+li a{
+    color: red;
+    text-decoration: none;
+    transition: background-color 2s ;
+}
+li a:hover{
+    color: black;
+    background-color: rgb(183, 196, 41);
+}
+.madár3{
+    width: 20px;
+    height: 20px;
+    float: left;
+    
+}

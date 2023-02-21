@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+  
+  .leiras{
+    transform: skew(-10deg);
+  }
+  .img1:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img1{
+    width: 283px;
+    height: 183px;
+   transition: width 2s, height 3s ease-in-out ;
+  }
+  .img2:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img2{
+    
+    width: 283px;
+    height: 183px;
+   transition: width 2s, height 3s linear ;
+  }
+  .img3:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img3{
+    
+    width: 283px;
+    height: 183px;
+   transition: width 2s, height 3s ease-in ;
+  }
+  .img4:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img4{
+    
+    width: 283px;
+    height: 183px;
+   transition: width 2s, height 3s ease-out;
+  }
+  .img5:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img5{
+    
+    width: 283px;
+    height: 183px;
+   transition: width 2s, height 3s, transform 4s ;
+   transition-duration: 3s;
+  }
+  .img6:hover{
+    width: 500px;
+    height: 400px;
+  }
+  .img6{
+    
+    width: 283px;
+    height: 183px;
+   transition: width 3s, height 4s ;
+    
+  }
+  .footer{
+    width: 300px;
+    height: 30px;
+    background-color: aquamarine;
+    transition: transform 3s ease-in-out 4s;
+  }
+  .footer:hover{
+    transform:rotate(90deg);
+  }

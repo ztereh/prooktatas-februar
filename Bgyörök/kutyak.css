@@ -1,0 +1,36 @@
+.header{
+    background-repeat: no-repeat;
+    margin-top: ;
+}    
+ul{
+    list-style-type: none;
+    
+    background-color:rgb(138, 234, 234) ;
+    width: 300px;
+    
+}
+li {
+    border: 1px red;
+    display: inline;
+}
+li a {
+   
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 2s;;
+} 
+li a{
+    color: rgb(197, 22, 22);
+    text-decoration: none;
+    transition: background-color 2s ;
+}
+li a:hover{
+    color: black;
+    background-color: rgb(183, 196, 41);
+}
+@media screen and (max-width:250px) {
+    .li{
+        display: block;
+    }
+}

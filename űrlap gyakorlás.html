@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap gyakorlás</title>
+    <link rel="stylesheet" href="űrlap gyakorlás .css">
+</head>
+
+
+<body>
+    <div class="container">
+        <form action="űrlap gyakorlás.html" method="post">
+            <h1 id="h1">Regisztráció</h1>
+            <h3>Megszólítás</h3>
+            <div>
+                <label for="Úrhölgy">Úrhölgy</label>
+                <input type="radio" name="Úrhölgy" id="Úrhölgy" >
+                <label for="Úr">Úr</label>
+                <input type="radio" name=    "Úr" id=   "Úr" >
+            </div>
+            
+            <div>
+                <label for="Vezetéknévnév">Vezetéknév:*</label>
+            <input type="Vezetéknév" id="Vezetéknév" >
+            <label for="Keresztnév">Keresztnév:*</label>
+            <input type="Keresztnév" id="Keresztnév" >
+            
+            </div>
+            
+            <div>
+                <label for="Születési dátum">Születési dátum* </label>
+                <input type="date"id="" >
+            </div>
+            <div>
+                <label for="e-mail cím">e-mail cím:*</label>
+            <input type="email" name =mail id="mail" title="írd be az e-mail címet">
+            <label for="e-mail cím újra">e-mail cím ismételt megadása:*</label>
+            <input type="email" name =mail id="mail" >
+            </div>
+            <div>
+                <label for="password"  >password:*</label>
+                <input type="password"name="password" id="password" value="FakePSW">
+                <label for="password ismételt megadása" >password ismételt megadása:*</label>
+                <input type="password" name="password ismételt megadása" id="password ismételt megadása" value="FakePSW">
+            </div>
+<p>* - kötelező mezők</p>
+
+
+        </form>
+    </div>
+    
+        <div>
+            <input type="checkbox" name="ASZF" id="ASZF">
+            <label for="hírlevél">Tudomásul vettem és elfogadom az ÁSZF-et, valamint az Adatkezelési tájékoztatóban foglaltakat.</label>
+        </div>
+        <div>
+            <input type="checkbox" name="hirlevel" id="hirlevel">
+            <label for="hírlevél">Szeretnék feliratkozni a DM Hírlevelem-re. A hírlevélből bármikor leiratkozhatok. </label>
+        </div>
+        
+    
+    <div>
+        <input type="submit" value="küldés">
+        
+    </div>
+    <form action="szám kiválasztás" method="post">
+    <p>Kérem válassza ki kedvenc számait az alábbiak közül</p>
+    <div>
+        <input type="checkbox">name="szam1" <required>
+            <label for="szam1">Első zeneszám</label>
+    </div>
+    <div>
+        <input type="checkbox">name="szam2" <required>
+            <label for="szam1">Második zeneszám</label>
+    </div>
+    <div>
+        <input type="checkbox">name="szam3" <required>
+            <label for="szam1">Harmadik zeneszám</label>
+    </div>
+    <div>
+        <input type="checkbox">name="szam4" <required>
+            <label for="szam1">Negyedik zeneszám</label>
+    </div>
+    <div>
+        <input type="checkbox">name="szam5" <required>
+            <label for="szam1">Ötödik zeneszám</label>
+    </div>
+    <input type="submit" value="Köszönöm">
+</form>
+
+</body>
+</html>

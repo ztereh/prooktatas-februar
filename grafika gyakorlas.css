@@ -1,0 +1,22 @@
+div {
+    background-image: linear-gradient(to bottom left, yellow, green);
+  }
+  #svg{
+    background-color: darkcyan;
+  }
+  .rotate{
+    transform: rotate(45deg);
+  }
+  .skew{
+    transform: skew(50deg);
+    
+  }
+  .translate{
+    transform: translate(50px, 100px);
+  }
+  .scale{
+    transform: scale(0.5,0.6);
+  }
+  .matrix{
+    transform: matrix(0.6, 0.8, 0.6, 1.5, 1.1, 2);
+  }

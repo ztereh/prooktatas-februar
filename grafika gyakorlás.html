@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grafika gyakorlás</title>
+    <link rel="stylesheet" href="grafika gyakorlas.css">
+</head>
+<body>
+    <svg class="scale" width="500" height="150">
+        <ellipse cx="160" cy="100" rx="120" ry="20" style="fill: violet;"/>
+        
+        
+        
+        <ellipse cx="140" cy="80" rx="110" ry="15" style="fill: green;"/>
+
+
+       
+            <ellipse cx="120" cy="50" rx="100" ry="10" style="fill: yellow;"/>
+    </svg>
+    <svg width="500" height="210">
+        <line x1="0" y="0" x2="200" y2="200" style="stroke: chocolate; stroke-width:3">
+    </svg>
+    <hr>
+
+    <svg class="skew" width="1000" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+        
+     </svg>
+     <hr>
+     <svg class="translate" width="200" height="100">
+        <text x="10" y="20" fill="blue" transform="rotate(90 40,30)">ez egy svg szöveg</text>
+     </svg>
+     <hr>
+     <svg class="rotate"   width="500" height="200">
+        <defs>
+            <radialGradient id="atmenet" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color: yellow;"/>
+                <stop offset="80%" style="stop-color: green;"/>
+                <stop offset="100%" style="stop-color: rgb(37, 204, 37);"/>
+            </radialGradient> 
+
+        </defs>
+        <ellipse cx="250" cy="80" rx="70" ry="30" fill="url(#atmenet)"/>
+     </svg>
+     <hr>
+     
+     <hr>
+     <svg width="500" height="200">
+        <defs>
+            <linearGradient id="gyakorlas" x1="0%" y1="0%" x2="50%" y2="0%" x3="100%" y3="0">
+                <stop offset="0%" style="stop-color: red;"/>
+                <stop offset="70%" style="stop-color: lime;"/>
+                <stop offset="100%" style="stop-color: blue;"/>
+
+                </linearGradient>
+
+        </defs>
+        <ellipse cx="200" cy="80" rx="80" ry="40" fill="url(#gyakorlas)"/>
+     </svg>
+     <svg width="1000" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lime; stroke:purple; stroke-width:5"/>
+     </svg>
+   <hr>
+   <svg id="svg" width="1000" height="800">
+    <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:yellow; "/>
+    <circle cx="100" cy="110" r="50" fill="yellow"/>
+    <rect x="200" y="400" width="40" height="200" style="fill: brown"/>
+    <defs>
+        <radialGradient id="atmenet" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="10%" style="stop-color: rgb(241, 241, 8);"/>
+            <stop offset="80%" style="stop-color: rgb(16, 162, 16);"/>
+            <stop offset="100%" style="stop-color: rgb(5, 81, 5);"/>
+        </radialGradient> 
+
+    </defs>
+    <ellipse class="matrix" cx="216" cy="352" rx="110" ry="90" style="fill:url(#atmenet);"/>
+    <defs>
+        <linearGradient id="gyakorlas" x1="10%" y1="0%" x2="70%" y2="0%" x3="100%" y3="0">
+            <stop offset="0%" style="stop-color: red;"/>
+            <stop offset="70%" style="stop-color: lime;"/>
+            <stop offset="100%" style="stop-color: blue;"/>
+
+            </linearGradient>
+
+    </defs>
+    
+    <polygon points="416,352 616,200 816,352 816,600 416,600 416,352 816,352" style="fill:url(#gyakorlas); stroke:black; stroke-width:5"/>
+    <polygon points="466,382 556,382 556,482 466,482" style="fill: aquamarine;"/>
+    <polygon points="666,382 756,382 756,482 666,482" style="fill: aquamarine;"/>
+    <polygon points="706,250 756,250 756,310 706,265"/>
+    <polygon points="580,600 580,480 640,480 640,600"/>
+
+
+   </svg> 
+    
+
+</body>
+</html>

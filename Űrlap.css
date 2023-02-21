@@ -1,0 +1,26 @@
+.container{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(188, 188, 196);
+    padding: 20px;
+    border-radius: 10%;
+}
+label, input{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    width: 90%;
+    color: red;
+    background-color: yellow;
+}
+input[type=email]{
+    width: 90%;
+}
+textarea{
+    background-color: aquamarine;
+}
+p{
+    text-align: center;
+}
