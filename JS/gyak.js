@@ -15,7 +15,7 @@ document.write("összetevők:" + feltet1  + "<br>")*/
     "fizetésmódja": "kp"
     
    }
-   document.write(pizza["alapanyag"] + "<br>") */
+   document.write(pizza1["alapanyag"] + "<br>") */
 
 const pizzak = [{
     név:"Hawaii",
@@ -34,7 +34,7 @@ const pizzak = [{
         szószalap : "csípős paradicsomos",
         feltétek : "sonka, ananász, szósz, erős paprika, gomba ",
         adatok : function(){
-            return "Ez a pizza egy: " + this.név + "pizza, mérete: " this.méret + "cm " +this.szószalap + "alapszósszal, és a következő feltétekkel: " + this.feltétek
+            return "Ez a pizza egy: " + this.név + "pizza, mérete: "+ this.méret + "cm " +this.szószalap + "alapszósszal, és a következő feltétekkel: " + this.feltétek
         },
         adatok2 : function(){
             return "<h1>" + this.név
@@ -43,7 +43,7 @@ const pizzak = [{
         név: "Hawaii álom",
         méret : 45,
         szószalap : "választható",
-        feltétek: "sonka, ananász, erős paprika, gomba"
+        feltétek: "sonka, ananász, erős paprika, gomba",
         adatok : function(){
             return "Ez a pizza egy: " + this.név + "pizza, mérete :" + this.méret + "cm " + this.szószalap + "szósszal, és a következő feltétekkel: " + this.feltétek
         },
@@ -54,8 +54,12 @@ const pizzak = [{
     }
 
 ]
-for (let i= ; i< pizzak.length; i++){
-    document.getElementById("kiras" +i).innerHTML = pizzak[i].adatok
+
+
+
+
+for (let i=0 ; i< pizzak.length; i++){
+    document.getElementById("kiiras" +i).innerHTML = pizzak[i].adatok 
 }
 
   

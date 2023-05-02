@@ -19,6 +19,7 @@ console.log(15 == "15")
 console.log(15==="15")
 
 
+
 let szam = 15
 szam = 18
 const masikszam = 18

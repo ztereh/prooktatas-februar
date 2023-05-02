@@ -37,7 +37,7 @@ ol{
     border-color: brown;
     border: top left radius: 10px; 
     border: bottom right radius: 10px; 
-    border-width: 5px;
+    boborder-width: 5px;
     border: :right radius: 10px
 }
 
@@ -51,3 +51,4 @@ ul{
 border2{
     border-radius: 
 }
+

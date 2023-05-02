@@ -1,6 +1,6 @@
 
 // String és Number
-/* document.write("ezt JS-ből írtam <br> ")
+ document.write("ezt JS-ből írtam <br> ")
 document.write("ez már jól megy <br>")
 console.log("HTML oldal script")
 console.log(5+1)
@@ -16,7 +16,7 @@ console.log((5+3) <= (8 * 6 -15))
 console.log("első " + "második")
 console.log('valami szöveg')
 console.log(15 == "15")
-console.log(15==="15") */
+console.log(15==="15") 
 
 
 let szam = 15
