@@ -1,0 +1,48 @@
+.header {
+  height: 100px;
+  width: 50%;
+}
+
+.oszlop1 {
+  padding: 5px;
+}
+
+.oszlop2 {
+  padding: 10px;
+}
+
+.oszlop3 {
+  padding: 15px;
+}
+
+.oszlop4 {
+  padding: 20px;
+}
+
+.oszlop5 {
+  padding: 25px;
+}
+
+.kepek .keptema {
+  background-image: image-url("kepek/nap.jpg");
+}
+.kepek .keptema {
+  background-image: image-url("kepek/tenger.jpg");
+}
+.kepek .keptema {
+  background-image: image-url("kepek/palmafa.jpg");
+}
+.kepek .keptema {
+  background-image: image-url("kepek/naplemente.jpg");
+}
+.kepek .keptema {
+  background-image: image-url("kepek/pizza.jpg");
+}
+
+h1 {
+  color: #7373e2;
+}
+
+h2 {
+  color: purple;
+}

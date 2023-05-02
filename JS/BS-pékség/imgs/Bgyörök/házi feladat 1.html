@@ -1,0 +1,216 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./házi feladat 1.css">
+    <link rel="stylesheet" href="./flex.html/dist/hf1.css">
+    
+
+
+
+
+    <title>HF1</title>
+    <style>
+        table, th, td, tr 
+   {
+        border: 1px solid black;
+        border-collapse: collapse;
+   }
+    </style>
+</head>
+<body>
+    <h1 id="lapteteje">HTML összegzés</h1>
+    <a href="#lapalja">Ugrás a lap aljára</a>
+
+    <h3>Tartalom</h3> 
+    <ol id="border1">
+        <li>Kötelező elemek</li>
+        <li>Szövegek egyszerű bevitele</li>
+        <li>Szövegek egyszerű formázása</li>
+        <li>Listák</li>
+        <li>Táblázatok</li>
+        <li>Beszúrások és további formázások</li>
+    </ol>
+    <h4>1. HTML kötelező elemei :</h4>
+    <ul>
+        <li>doctype-dokumentum típusa  plusz nyelv meagadása </li>        
+        <li>head-fejrész, meta adatok (karakterkészlet, cím stb)</li>
+        <li>body-test tartalom</li>
+    </ul>
+    <h4>2. szövegbevitel</h4>
+    <ul id="lista">
+        <li>egyszerűen beírunk egy mondatot tag-ek nélkü</li>
+        egyszerű mondat
+        <li>h1-től h6-ig megadhatunk csökkenő (adott) méretű, adott font készletű szövege</li>
+        <h5>egyszerű mondat</h5>
+        <li>paragrafust írunk (p)</li>
+        <p>egyszerű mondat</p>
+     </ul>
+     <h4>3. szövegek egyszerű formázása</h4>
+     <ul>
+        <li>italic-dőlt betű, lehet strong használatával beírva, hogy italic, vagy egyszerűen i betűvel</li>
+        <em><strong>italic-dőlt </strong></em>
+        <li>bold-vastagított</li>
+        <b>bold-vastagított</b>
+        <li>br-break sortörés</li>
+        <h4>példa a sortörés <br> bemutatására</h4>
+        <li>folyamatos vonal</li>
+        <hr>
+        <li>megjegyzés: alt + shift + a, csak a kódban látható megjegyzés</li>
+     </ul>
+     <h4>4. Listák</h4>
+     <ul>
+        <li>számozott listák, kezdés : ul, lista elemei li</li>
+        <ol>
+            <li>lista első eleme</li>
+            <li>lista második eleme</li>            
+        </ol>
+        <li>számozatlan listák, kezdés : ol, lista elemei li </li>
+        <ul id="lista2">
+        <li>számozatlan lista első eleme</li>
+        <li>számozatlan lista második eleme</li>    
+        </ul>
+        <li>definíciós listák, kezdés dl, elemei dt cím és dd elemek</li>
+        <dl>
+            <dt>fehér és fekete szín</dt>
+            <dd>fehér-világos</dd>
+            <dd>fekete-sötét</dd>
+        </dl>
+        <li>listákat egymásba lehet ágyazni </li>
+     </ul>
+<h4>5. Táblázatok</h4>
+<p id="arnyek">táblázat elemei kezdés : table, táblázat elnevezése : caption, táblázat vízszintes elemei :tr, <br> oszlop elnevezése (fejléc) : th, tr után </p>
+<p>lehet formázni is a táblázatokat, pl border-szegély, szélesség, stb.</p>
+<table >
+        <caption>A három testőr plusz D,Artagnan</caption>
+    <tr>
+        <th>az első testőr</th>
+        <th>a második testőr</th>
+        <th>a harmadik testőr</th>
+        <th>a negyedik társuk</th>      
+    </tr>
+    <tr>
+    <td>Athos</td>
+    <td>Porthos</tdr>
+    <td>Aramis</td>
+    <td>D,Artagnan</td>
+    </tr>
+    <tr>
+        <td>muskétás</td>
+        <td>muskétás</td>
+        <td>muskétás</td>
+        <td>újonc</td>
+    </tr>
+    <div>
+    </table>
+    <p >oszlop széthúzása, átnyúlása több oszlopra colspan/p>
+    <table id="table" >
+                <caption>A három testőr plusz D,Artagnan</caption>
+        <tr>
+            <th>az első testőr</th>
+            <th>a második testőr</th>
+            <th>a harmadik testőr</th>
+            <th>a negyedik társuk</th>      
+        </tr>
+        <tr>
+        <td>Athos</td>
+        <td>Porthos</tdr>
+        <td>Aramis</td>
+        <td>D,Artagnan</td>
+        </tr>
+        <tr>            
+            <td colspan="3" >muskétás</td>
+            <td>újonc</td>
+
+        </tr>
+    </table>
+    </div>
+<p>sor széthúzása, rowspan</p>
+<table>
+    <caption>Finomságok</caption>
+    
+        <th>lekvár</th>
+        <th>fajta</th>
+    
+    <tr id="tablazat">
+        <td rowspan="3">finom lekvár</td>               
+            <td>málna</td>
+        </tr>
+        <tr>
+            <td>szamóca</td>
+        </tr>
+        <tr>
+            <td>sárgabarack</td>
+        </tr>   
+        <tr>
+            <td colspan="2">A legkedveltebb lekvárfajták</td> 
+        </tr>               
+          
+
+</table>
+<h4>6. beszúrások és további formázások</h4>
+<ul>
+    <li>képek beszúrása img src</li>
+</ul>       
+        
+    <img src="https://st2.depositphotos.com/1802620/7621/v/950/depositphotos_76219969-stock-illustration-online-shopping-flat-concept.jpg" alt="programmer" width="200px" title="programmer">
+
+<ul>
+    <li>video beszúrása: video src, megadhatjuk a kezdőképet: poster, controls hozzáadásával le is lehet játszani, Youtube videónál iframe (beágyazott böngésző tartalom) beszúrás, legjobb ha saját gépre elmentjük/letöltjük</li>
+</ul>
+<video src="./média/SzÃ¡mÃ_tÃ³gÃ©p - 48702.mp4" height="300px" controls></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TFw4i6IqjtU?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<ul>
+        <li>rövidítés-abbr, a HTML fölé tett cursor mutatja a tartalmat       
+        </li>
+    </ul>
+    <p>
+        a <abbr title=https://hu.wikipedia.org/wiki/HTMLL">HTML</abbr>
+        az alap leíró nyelv
+    </p>
+
+<ul>
+    <li>definition leírás</li>
+</ul>
+<p>
+    ugyanezt elérhetjük így is
+    <dfn title="https://hu.wikipedia.org/wiki/HTMLL">HTML></dfn>
+</p>
+<ul>
+    <li>mark-szöveg kiemelés</li>
+</ul>
+<p>ez egy mark <mark>kiemelt szöveg</mark> megmutatása</p>
+<ul>
+    <li>idézet</li>
+</ul>
+<p>Idézet <cite>Nemzeti dalból</cite> <q>Talpra magyar!</q></p>
+
+<ul>
+    <li>meter element-minimum és maximum közti érték megadása</li>
+</ul>
+<p>
+    Melegítsd fel a sütőt 180 fokra: <meter min=""160" max="200" value="180" title="180"></meter>
+</p>
+<ul>
+    <li>sub és sup elementek-alsó és felső index</li>
+</ul>
+<p>3 a négyzeten 3<sup>2</sup><br>
+    szénsav képlete H<sub>2</sub>CO<sub>3</sub></p>
+    <ul>
+   <li>blockquote>=idézetblokk idézetek beszúrására</li>
+    </ul>
+<p>
+    <blockquote id="lapalja">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, praesentium ullam odit cupiditate debitis ex cum dicta minima illum soluta molestiae, iure laboriosam eligendi consequatur, eaque saepe. Commodi, nemo veniam?</blockquote>
+</p>
+<a href="#lapteteje">Ugrás a lap tetejére</a>
+<hr>
+
+</p>
+<p>
+    Tanfolyamlehetőségért kattintson <a href="https://www.prooktatas.hu/ " target="blank">Prooktatás</a> oldalára!
+</p>
+
+</body>
+</html>

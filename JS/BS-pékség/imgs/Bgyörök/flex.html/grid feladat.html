@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid feladat</title>
+    <style>
+     .container{
+            
+            display: grid;
+            grid-template-columns: repeat(4, 20%);
+            width: 800px;
+            
+            grid-template-areas: 
+            "header header header header"
+            "navigation content content content"
+            "navigation content content content"
+            "navigation content content content"
+           
+            "footer footer footer footer";
+            column-gap: 10px;
+            row-gap: 5px;
+            height: 400px;
+            margin: 5px;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .container div{
+            padding: 15px;
+            
+        }
+        .elso{
+            background-color: lightgrey;
+            grid-area: header;
+            
+            
+        }
+        .masodik{
+            background-color: yellowgreen;
+            grid-area: navigation;
+            height: 200px;
+            justify-content: center;
+            
+            
+            
+            
+        }
+        .harmadik{
+            background-color: rgb(171, 163, 163);
+            grid-area: content;
+            
+        }
+            
+        .negyedik{
+            background-color: lightblue;
+            grid-area: footer;
+           
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elso">Header
+            
+        </div>
+        
+        <div class="masodik">NAV 
+            
+               </div>
+        <div class="harmadik">Content
+            
+        </div>
+        <div class="negyedik">Footer 
+           
+        </div>
+        
+    
+</body>
+</html>

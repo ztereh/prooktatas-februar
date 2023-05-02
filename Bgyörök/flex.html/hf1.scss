@@ -1,0 +1,57 @@
+
+
+@import  './Flex.html/_hazi.scss';
+
+
+
+
+$színek: (
+    alapszin: brown,
+    masodlagosszin: yellow
+);
+/*$alapszin: brown;
+$masodlagosszin: yellow; */
+
+h1 {
+    color: map-get($szinek, alapszin);
+}
+
+h4{
+    color: szovegszin(rgba(6, 68, 42, 0.507));
+}
+
+
+
+@for $i from 1 through 5 {
+    .oszlop#{$i} {padding: 5px*$i;}
+}
+
+@function szovegszin($szin){
+    @if(lightness($szin) > 60){
+        @return green;
+        }
+        @else {
+            @return purple;
+        }
+}
+
+
+
+
+
+
+
+
+/*
+h4 {
+    color: $masodlagosszin;
+
+    }
+li {
+            color: $alapszin;
+    }
+table {
+    th {
+        background-color: $masodlagosszin;
+    }
+} */

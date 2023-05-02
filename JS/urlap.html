@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urlap js gyakorlas</title>
+</head>
+<style>
+
+.container{
+    width: 480px;
+    margin: auto;
+    background-color: rgb(130, 176, 129);
+    padding: 20px;
+    border-radius: 10%;
+}
+    h1{
+    text-align: center;
+}
+
+label, input{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=email]{
+    margin-left: 80px;
+}
+
+input[type=password]{
+    margin-left: 58px;
+}
+input[type=password1]{
+    margin-left: 22px;
+}
+
+input[type=year]{
+    margin-left: 75px;
+}
+ p{
+    text-align: left;
+    }
+
+    .iskolai{
+        margin-left: 10px;
+    }
+.radio{
+    float:right;
+    margin-top: -35px;
+    margin-right: 130px;
+}
+.footer{
+    text-align: center;
+}
+.regi{
+    text-align: center;
+}
+
+</style>
+<body >
+    
+        <div class="container">
+        <form  name="reg" >
+            <h1 id="h1">Azonosító adataid</h1>
+            
+            <hr>
+            
+            
+            
+            
+            <div>
+                <label for="e-mail cím">e-mail címed:  </label>
+            <input type="email" name =mail id="mail" title="írd be az e-mail címet">
+           
+            </div>
+            <div>
+                <label for="leendő jeészavad"  >leendő jelszavad:</label>
+                <input type="password"name="password" id="password">
+                </div>
+                <div>
+                <label for="jelszavad még egyszer" >jelszavad még egyszer:</label>
+                <input type="password1" name="password1" id="password ismételt megadása">
+            <div>
+                <label for="születési éved">születési éved: </label>
+                <input type="year" name="születésiéved" id="születési éved" >
+            </div>
+            <div>
+               <label for="lakóhelyed irányítószáma">lakóhelyed irányítószáma:</label>
+               <input type="text" name="irszam" id="lakóhelyed iránítószáma">
+               <div>
+                <div class="iskolai">
+                    <p>iskolai végzettséged:</p>
+                   <div class="radio">
+           <div>
+                <input type="radio" name="általános iskola" id="általános iskola">
+            <label for="iskolai végzettség">általános iskola</label>
+            </div>
+            <div>
+            <input type="radio" name="iskolai végzettség" id="középiskol">
+            <label for="iskolai végzettség">középiskola</label>
+        </div>
+    
+<div>
+            <input type="radio" name="iskolai végzettség" id="iskolai végzettség">
+            <label for="iskolai végzettség">főiskola, egyetem</label>
+                   </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+               
+            <hr>
+            <div class="regi">
+            <label for="regisztráció">Regisztrációs feltételeket elfogadom</label>
+            <input type="checkbox" name="regisztráció" id="regisztráció">
+            </div>   
+            <hr>
+            <div class="footer">
+            <input type="button" value="Regisztráció" onclick="ellenorzes()">  <input type="reset" value="Mező törlése">
+        </div>
+
+        </form>
+        </div>
+        <script src="./urlap.js"></script>
+</body>
+</html>

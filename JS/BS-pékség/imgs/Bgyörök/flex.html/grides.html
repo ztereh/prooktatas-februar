@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container{
+            background-color: lightgreen;
+            display: grid;
+            grid-template-columns: repeat(4, 20%);
+            grid-template-areas: 
+            "header header header header"
+            "left main main main"
+            "left right right right"
+            "footer footer footer footer";
+            column-gap: 15px;
+            row-gap: 15px;
+            height: 400px;
+            margin: 5px;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .container div{
+            padding: 15px;
+            
+        }
+        .elso{
+            background-color: yellow;
+            grid-area: header;
+        }
+        .masodik{
+            background-color: red;
+            grid-area: left;
+        }
+        .harmadik{
+            background-color: blue;
+            grid-area: right;
+        }
+        .negyedik{
+            background-color: violet;
+            grid-area: main;
+        }
+        .otodik{
+            background-color: brown;
+            grid-area: footer;
+        }
+        .hatodik{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elso">első</div>
+        <div class="masodik">Második</div>
+        <div class="harmadik">Harmadik</div>
+        <div class="negyedik">Negyedik</div>
+        <div class="otodik">ötödik</div>
+        <div class="hatodik">hatodik</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <title>Flexes szemantikus</title>
+    <style>
+        
+            
+            
+        
+        header {
+            border: 1px black solid;
+          
+            height: 200px;
+            background-image: url(artist-playing-electric-guitar_23-2148751573.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            transform: skew(-2deg);
+            border-radius: 8px;
+                           
+                     
+                        
+        }
+        .nav{
+            height: 100px;
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            border: 1px black;
+            border-radius: 8px;
+            text-shadow: 5px 5px 10px black;
+            
+            
+        }
+        a {
+            color: black;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 8px;
+            
+        }
+        
+        
+        @media screeen and (max-width:600px) {
+            .nav {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                height: 200px;
+            }
+            }  
+            .nav {
+                height: 300px;
+                width: 200px;
+                border: 1px black solid;
+                transform: skew(-2deg);
+            }
+            .article {
+                border: 1px black;
+                width: 900pc;
+                border: 1px black;
+            }
+            .közép{
+                display: flex;
+
+                flex-direction: row;
+                
+                
+                
+
+            }
+            .article {
+                display: flex;
+                flex-direction: row;
+            }
+                
+            footer {
+                border: 1px black solid;
+                height: 80px;
+                background-color: yellowgreen;
+                transform: skew(-2deg);
+                border-radius: 8px;
+                
+            }
+            
+            
+            
+            
+            .img1, .img2, .img3{
+                width: 527px;
+                height: 300px;
+                border-radius: 8px;
+                transform: skewX(-2deg);
+                
+            }
+            .p2{
+                width: 0px;
+                opacity: 0;
+            }
+            @keyframes ajanlo{
+    0%{left: 0px; top: 0px;}
+    0%{width: 11%;}
+    0%{opacity: 0;}    
+        50%{left: 1000px; top: 0px;}
+        50%{width: 100%;}
+        50%{opacity: 1;}
+           
+    100%{left:0px; top: 0px;}
+            }      
+            .p2{
+     
+    position: relative;
+    animation-name: ajanlo;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    
+    }   
+    .h1{
+        transform: translate(10px);
+    }  
+    .p10{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+        
+
+        
+        </style>
+</head>
+
+<body class="body">
+    <header class="header" ><h1>Kedvenc rock zenekaraim gyerekkoromból</h1></header>
+    <div class="p10"><p>Deep Purple</p>  <p>Black Sabbath</p>   <p>Led Zeppelin</p></div>
+
+    <div class="közép">
+    <nav class="nav">
+            <a href="./index.html">Home</a> 
+            <a href="./albumok/">Wikipédia</a>
+            <a href="./galéria.html">Galéria</a>
+            <a href="./albumok/">Albumok</a>
+            <a href="./kapcsolat.html">Kapcsolat</a>
+              
+        </nav>
+        <article class="article">
+            
+            <img  class="img1" src="./Deep-Purple.jpg" alt="">
+            <img class="img2" src="./blacksabbath1970.jpg" alt="">
+            <img class="img3" src="./Led_Zeppelin_1979 rockbook.jpg" alt="">
+            
+        
+    </div>
+        
+    <footer>
+<p class="p">Köszönöm a figyelmet!</p>
+<div class="ajanlo"><p class="p2">Ha tetszik az oldal, ajánld ismerőseidnek!</p></div>
+    </footer>
+    
+</body>
+</html>

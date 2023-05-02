@@ -1,0 +1,40 @@
+@import  '../_fejlec.scss';
+
+
+$szinek: (
+    alapszin: rgb(115, 115, 226),
+    masodlagosszin: yellow
+
+);
+
+@for $i from 1 through 5 {
+    .oszlop#{$i} {padding: 5px*$i;}
+}
+    
+$lista : nap tenger palmafa naplemente pizza;
+
+.kepek{
+    @each $tema in $lista{
+        .kep#{tema}{background-image: image-url("kepek/#{$tema}.jpg");}
+    }
+}
+
+
+
+
+h1 {
+    color : map-get($szinek, alapszin);
+}
+
+
+@function szovegszin($szin){
+    @if(lightness($szin) > 60){
+        @return green;
+        }
+        @else {
+            @return purple;
+        }
+}
+h2 {
+    color:  szovegszin(red);
+}

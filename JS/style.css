@@ -1,0 +1,21 @@
+header {
+    background-image: url("./BS-pékség/imgs/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    color: white ;
+    font-size: 2rem;
+
+
+}
+main{font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: rgb(233, 248, 248);
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+}
+
+

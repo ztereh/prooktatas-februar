@@ -1,0 +1,53 @@
+h1{
+    color: red;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+}
+body{
+    background-color: rgba(209, 204, 197, 0.947);
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background:scroll fixed;
+    background-repeat: no-repeat;
+
+    background-image:url(https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+    
+}
+  a:hover{
+    color: brown;
+    background-color: aliceblue;
+}
+
+h3{
+    color: rgba(6, 68, 42, 0.507);
+}   
+h4{
+    color: rgb(191, 134, 60);
+    text-shadow: -5px -5px blue;
+} 
+ol{
+    font-style: italic;
+    background-color: rgb(175, 220, 128);
+    background-image: linear-gradient(yellow);
+}
+#border1{
+    border-style: dotted;
+    border-color: brown;
+    border: top left radius: 10px; 
+    border: bottom right radius: 10px; 
+    border-width: 5px;
+    border: :right radius: 10px
+}
+
+#table{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+ul{
+    background-image: radial-gradient(rgb(208, 69, 69) rgb(64, 202, 64));
+}
+border2{
+    border-radius: 
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridgyakorlas</title>
+    <style>
+        .container{
+            border-radius: 8px;
+            border: black;
+            width:800px;
+            text-align: center;
+           background-color: lightgrey;
+            display: grid;
+            
+            grid-template-areas: 
+            "header header header header"
+            "navigation navigation navigation navigation"
+            "section section section sidebar"
+            "article article article sidebar"
+            "summary summary summary summary"
+            "footer footer footer footer";
+           column-gap: 2px;
+            row-gap: 10px;
+            height: 600px;
+            margin: 5px;
+                          
+            }
+            
+
+        .elso{
+            background-color: grey;
+            grid-area: header;
+            
+        }
+        .masodik{
+            background-color: lightblue;
+            grid-area: navigation;
+            
+        }
+        .harmadik{
+            background-color: grey;
+            grid-area: section;
+        }
+        .negyedik{
+            background-color: lightblue;
+            grid-area: article;
+        }
+        .otodik{
+            background-color: grey;
+            grid-area: summary;
+        }
+        .hatodik{
+            background-color: grey;
+            grid-area: footer;
+        }
+        .hetedik{
+            background-color: rgb(62, 83, 90);
+            grid-area: sidebar;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="elso">Header Section
+            <p>szöveg</p>
+        </div>
+        
+        <div class="masodik">Navigation Part
+            <p>navigation link1 navigation link2 navigation link3</p>
+        </div>
+        <div class="harmadik">Section part
+            <p>szöveg</p>
+        </div>
+        <div class="negyedik">Article part
+            <p>szöveg</p>
+        </div>
+        <div class="otodik">Summary
+            <p>szöveg</p>
+        </div>
+        <div class="hatodik">Footer section
+            <p>szöveg</p>
+        </div>
+        <div class="hetedik">Sidebar part
+           <p>szöveg</p> 
+        </div>
+
+    
+</body>
+</html>
